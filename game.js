@@ -19,13 +19,13 @@ function nextSequence() {
             var randomColour = buttonColours[randomNumber];
             pattern.push(randomColour);
         }
-    } else if (level >= 5) {
+    } if (level >= 5) {
         while (pattern.length < 6) {
             var randomNumber = Math.floor(Math.random()*4);
             var randomColour = buttonColours[randomNumber];
             pattern.push(randomColour);
         }
-    } else if (level >= 7) {
+    } if (level >= 7) {
         while (pattern.length < 8) {
             var randomNumber = Math.floor(Math.random()*4);
             var randomColour = buttonColours[randomNumber];
